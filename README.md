@@ -24,17 +24,8 @@ Gabriel Pinheiro Palitot Pereira - 511884
 
 # Descrição
 
- O projeto basicamente consiste em adquirir um sinal ECG de um kit de leitura e utilizar
-o microcontrolador STM32, inicialmente, para realizar sua conversão para sinal digital. Em
-seguida, a partir de uma placa ESP32, iremos transmitir esse sinal para um display,
-contanto a quantidade de batimentos por minuto. 
-
-  Em um primeiro momento o processador STM32
-só será utilizado para a realização da conversão para sinal digital e conseguir comandar o
-sistema de WIFI da ESP32, porém, como já dito, essa é apenas uma função inicial, estando
-aberto para novas funções conforme o desenvolvimento do projeto. Para uma descrição mais detalhada, temos que a conversão, logicamente vai ser
-realizada a partir do conversor analógico-digital da STM.
-
+  O projeto consiste na aquisição do sinal biológico cardíaco (ECG), a partir do módulo AD8232, carinhosamente apelidado de "kit ECG". Dito kit consiste de uma série de amplificadores operacionais que permitirão a transformação de tensões da ordem de nV em tensões entre 0V e 3.3V, perfeito para leitura pelo conversor A/D do STM32.
+  O STM irá enviar a leitura do sinal para um terminal em um computador, via USART, por meio de um conversor USB/serial. Os dados serão enviados para um programa em Python que realizará a plotagem e o processamento digital (filtragem) do sinal.
 
 As configurações do STM32 estão abaixo:
 
