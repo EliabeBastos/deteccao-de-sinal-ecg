@@ -32,7 +32,7 @@ Bastante paciência
 O kit ECG é este aqui:
 ![Sensor ECG](https://user-images.githubusercontent.com/105894035/208175327-99f4915a-cbb7-4c3c-bcd3-fa93bc298f33.jpg)
   Lembrando que os eletrodos são descartáveis e normalmente encontrados em lojas de material hospitalar, você NÃO vai encontra-los em lojas de eletrônicos.
-  Alimentamos os pinos 3.3 e GND na fonte de alimentação e o pino output vai direto no conversor AD, os pinos LO+ e LO- podem ser deixados flutuando, mas são sinais digitais que dizem se o sensor está captando alguma coisa.
+  Alimentamos os pinos 3.3 e GND na fonte de alimentação e o pino output vai direto no conversor AD, os pinos LO+ e LO- podem ser deixados flutuando, mas são sinais digitais que dizem se o sensor está captando algum sinal.
 
 A amostragem bruta do projeto final ficou assim:
 ![image](https://user-images.githubusercontent.com/105894035/207976850-d7cf4977-ae5b-443b-99fd-41793344f5ed.png)
