@@ -12,15 +12,15 @@ Gabriel Pinheiro Palitot Pereira - 511884
 
 # Componentes
 
-1 sensor ECG
+1 Sensor ECG (AD8232)
 
-1 STM32F070F6P6
+1 Greenpill (STM32F070F6P6) 
 
-1 protoboard
+1 STlink-32
 
-1 ESLink
+1 Conversor USB/serial
 
-1 display
+Bastante paciência
 
 # Descrição
 
