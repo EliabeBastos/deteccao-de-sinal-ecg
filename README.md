@@ -25,7 +25,7 @@ Bastante paciência
 # Descrição
 
   O projeto consiste na aquisição do sinal biológico cardíaco (ECG), a partir do módulo AD8232, carinhosamente apelidado de "kit ECG". Que consiste em uma série de AMPOPs que permitirão a amplificação de sinais da ordem de nV em sinais entre 0V e 3.3V, perfeito para leitura pelo conversor A/D do STM32.
-  O STM irá enviar a leitura do sinal para um terminal em um computador, via USART, por meio de um conversor USB/serial. Os dados serão enviados para um programa em Python que realizará a plotagem e o processamento digital (filtragem) do sinal.
+  O STM irá enviar a leitura do sinal para um terminal em um computador, via USART, por meio de um conversor USB/serial. Em seguida, os dados serão enviados para um programa em Python que realizará a plotagem e o processamento digital (filtragem) do sinal.
 
   As configurações do STM32 estão abaixo:
 ![Configurações STM](https://user-images.githubusercontent.com/105894035/207976082-94a1b0ba-77ae-499d-bbbc-6462a636d375.png)
